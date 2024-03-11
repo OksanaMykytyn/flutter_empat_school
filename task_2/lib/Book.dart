@@ -9,9 +9,8 @@ class Book with Action {
   String? genre;
 
   Book(
-    this.title, this.yearOfPublication, this.author, this.amontOfCopy, this.page,
+    this.title, this.yearOfPublication, this.author, this.rating, this.amontOfCopy, this.page,
   );
-
 
   double showRating(){
     double rate = rating ?? 0;
