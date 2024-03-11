@@ -3,13 +3,13 @@ class Book with Action {
   String title;
   String author;
   int yearOfPublication;
-  double rating;
+  double? rating;
   int amontOfCopy;
   int page;
   String? genre;
 
   Book(
-    this.title, this.yearOfPublication, this.author, this.rating, this.amontOfCopy, this.page,
+    this.title, this.yearOfPublication, this.author, this.amontOfCopy, this.page,
   );
 
 
