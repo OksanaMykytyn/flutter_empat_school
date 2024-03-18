@@ -12,7 +12,6 @@ class Book with Action {
     this.title, this.yearOfPublication, this.author, this.rating, this.amontOfCopy, this.page,
   );
 
-
   double showRating(){
     double rate = rating ?? 0;
     return rate;
