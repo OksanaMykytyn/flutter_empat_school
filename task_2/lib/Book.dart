@@ -3,7 +3,7 @@ class Book with Action {
   String title;
   String author;
   int yearOfPublication;
-  double rating;
+  double? rating;
   int amontOfCopy;
   int page;
   String? genre;
